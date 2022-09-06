@@ -1,0 +1,24 @@
+training data -> 70% of rows TRAIN MODEL ON THIS
+testing data -> 10% of rows 
+validation data -> 20% of rows [only used when there are hyper parameters] (used to select the best hyperparameter for a problem)
+
+5,7 -> 89%
+5,10 -> 91%
+3, 5, 7 -> 94% [WINS] (get 92% using test data)
+10,20 -> 85%
+
+
+
+Two different types of accuracy
+-> training accuracy (how well a trained model performs on the training data) -> 95%
+-> testing accuracy ("" "" testing data) -> 85% (All we care about)
+
+s1 traIN 1 DAY -> test accuracy is 70%  // [overfit]
+s2 train 1/2 day -> test accuracy is 85% // [underfit]
+s3 train 3/4 day -> test accuracy 95%
+
+
+
+
+bias-variance tradeoff
+
